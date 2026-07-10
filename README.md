@@ -15,3 +15,18 @@ The project includes:
 - Deploying the backend using `kubectl`  
 
 ---
+
+## Technologies Used
+
+- **Amazon EC2** – command workstation  
+- **Amazon EKS** – Kubernetes control plane  
+- **Amazon ECR** – container registry  
+- **AWS IAM** – permissions and roles  
+- **AWS CloudFormation** – infrastructure orchestration  
+- **Docker** – containerization  
+- **Kubernetes** – orchestration  
+- **kubectl** – cluster interaction  
+- **eksctl** – cluster provisioning  
+- **Git & GitHub** – version control  
+
+---
