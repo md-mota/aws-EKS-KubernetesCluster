@@ -16,6 +16,30 @@ The project includes:
 
 ---
 
+## Architecture Overview and Workflow Diagrams:
+
+### Part 1: Launching a Kubenetes Cluster:
+
+- Launch and Connect to an EC2 Instance:  
+<img src="part1-workflow-diagrams/part1-workflow-diagram1.png" width="700">
+
+- Launch EKS Cluster using eksctl (Error):  
+<img src="part1-workflow-diagrams/part1-workflow-diagram2.png" width="700">
+
+- Launch EKS Cluster with correct IAM role (Successful):  
+<img src="part1-workflow-diagrams/part1-workflow-diagram3.png" width="700">
+
+- Utilize CloudFormation to track creation of EKS cluster:  
+<img src="part1-workflow-diagrams/part1-workflow-diagram4.png" width="700">
+
+- Access EKS from the Management Console:  
+<img src="part1-workflow-diagrams/part1-workflow-diagram5.png" width="700">
+
+- Completed overview of Part1:  
+<img src="part1-workflow-diagrams/part1-workflow-diagram6.png" width="700">
+
+---
+
 ## Technologies Used
 
 - **Amazon EC2** – command workstation  
