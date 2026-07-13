@@ -40,6 +40,25 @@ The project includes:
 
 ---
 
+### Part 2: Setting up Kubernetes Deployment:
+
+- EC2 and EKS setup from Part1:  
+<img src="part2-workflow-diagrams/part2-workflow-diagram1.png" width="700">
+
+- Pulling the code for the Backend from GitHub:  
+<img src="part2-workflow-diagrams/part2-workflow-diagram2.png" width="700">
+
+- Building container image for the backend:  
+<img src="part2-workflow-diagrams/part2-workflow-diagram3.png" width="700">
+
+- Pushing containter image to Amazon ECR:  
+<img src="part2-workflow-diagrams/part2-workflow-diagram4.png" width="700">
+
+- Completed overview of Part2:  
+<img src="part2-workflow-diagrams/part2-workflow-diagram5.png" width="700">
+
+---
+
 ## Technologies Used
 
 - **Amazon EC2** – command workstation  
