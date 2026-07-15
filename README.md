@@ -21,63 +21,73 @@ The project includes:
 ### Part 1: Launching a Kubenetes Cluster:
 
 - Launch and Connect to an EC2 Instance:  
-<img src="part1-workflow-diagrams/part1-workflow-diagram1.png" width="700">
+<img src="part1-workflow-diagrams/part1-workflow-diagram1.png" width="500">
 
 - Launch EKS Cluster using eksctl (Error):  
-<img src="part1-workflow-diagrams/part1-workflow-diagram2.png" width="700">
+<img src="part1-workflow-diagrams/part1-workflow-diagram2.png" width="500">
 
 - Launch EKS Cluster with correct IAM role (Successful):  
-<img src="part1-workflow-diagrams/part1-workflow-diagram3.png" width="700">
+<img src="part1-workflow-diagrams/part1-workflow-diagram3.png" width="500">
 
 - Utilize CloudFormation to track creation of EKS cluster:  
-<img src="part1-workflow-diagrams/part1-workflow-diagram4.png" width="700">
+<img src="part1-workflow-diagrams/part1-workflow-diagram4.png" width="500">
 
 - Access EKS from the Management Console:  
-<img src="part1-workflow-diagrams/part1-workflow-diagram5.png" width="700">
+<img src="part1-workflow-diagrams/part1-workflow-diagram5.png" width="500">
 
 - Completed overview of Part1:  
-<img src="part1-workflow-diagrams/part1-workflow-diagram6.png" width="700">
+<img src="part1-workflow-diagrams/part1-workflow-diagram6.png" width="500">
 
 ---
 
 ### Part 2: Setting up Kubernetes Deployment:
 
 - EC2 and EKS setup from Part1:  
-<img src="part2-workflow-diagrams/part2-workflow-diagram1.png" width="700">
+<img src="part2-workflow-diagrams/part2-workflow-diagram1.png" width="500">
 
 - Pulling the code for the Backend from GitHub:  
-<img src="part2-workflow-diagrams/part2-workflow-diagram2.png" width="700">
+<img src="part2-workflow-diagrams/part2-workflow-diagram2.png" width="500">
 
 - Building container image for the backend:  
-<img src="part2-workflow-diagrams/part2-workflow-diagram3.png" width="700">
+<img src="part2-workflow-diagrams/part2-workflow-diagram3.png" width="500">
 
 - Pushing containter image to Amazon ECR:  
-<img src="part2-workflow-diagrams/part2-workflow-diagram4.png" width="700">
+<img src="part2-workflow-diagrams/part2-workflow-diagram4.png" width="500">
 
 - Completed overview of Part2:  
-<img src="part2-workflow-diagrams/part2-workflow-diagram5.png" width="700">
+<img src="part2-workflow-diagrams/part2-workflow-diagram5.png" width="500">
 
 ---
 
 ### Part 3: Creating Kubernetes Manifests:
 
 - EC2 and EKS setup from Part1:  
-<img src="part3-workflow-diagrams/part3-workflow-diagram1.png" width="700">
+<img src="part3-workflow-diagrams/part3-workflow-diagram1.png" width="500">
 
 - Pulling the Code from Part2:  
-<img src="part3-workflow-diagrams/part3-workflow-diagram2.png" width="700">
+<img src="part3-workflow-diagrams/part3-workflow-diagram2.png" width="500">
 
 - Building container image from Part2:  
-<img src="part3-workflow-diagrams/part3-workflow-diagram3.png" width="700">
+<img src="part3-workflow-diagrams/part3-workflow-diagram3.png" width="500">
 
 - Pushing to ECR from Part2:  
-<img src="part3-workflow-diagrams/part3-workflow-diagram4.png" width="700">
+<img src="part3-workflow-diagrams/part3-workflow-diagram4.png" width="500">
 
 - Setting up app for deployment by creating Manifests:  
-<img src="part3-workflow-diagrams/part3-workflow-diagram5.png" width="700">
+<img src="part3-workflow-diagrams/part3-workflow-diagram5.png" width="500">
 
 - Completed Overview of Part3:  
-<img src="part3-workflow-diagrams/part3-workflow-diagram6.png" width="700">
+<img src="part3-workflow-diagrams/part3-workflow-diagram6.png" width="500">
+
+---
+
+### Part 4: Deploying Backend with Kubernetes:
+
+- Deploying the backend application using kubectl:  
+<img src="part4-workflow-diagrams/part4-workflow-diagram1.png" width="500">
+
+- Completed overview of Part4 and entire project:  
+<img src="part4-workflow-diagrams/part4-workflow-diagram2.png" width="500">
 
 ---
 
