@@ -59,6 +59,28 @@ The project includes:
 
 ---
 
+### Part 3: Creating Kubernetes Manifests:
+
+- EC2 and EKS setup from Part1:  
+<img src="part3-workflow-diagrams/part3-workflow-diagram1.png" width="700">
+
+- Pulling the Code from Part2:  
+<img src="part3-workflow-diagrams/part3-workflow-diagram2.png" width="700">
+
+- Building container image from Part2:  
+<img src="part3-workflow-diagrams/part3-workflow-diagram3.png" width="700">
+
+- Pushing to ECR from Part2:  
+<img src="part3-workflow-diagrams/part3-workflow-diagram4.png" width="700">
+
+- Setting up app for deployment by creating Manifests:  
+<img src="part3-workflow-diagrams/part3-workflow-diagram5.png" width="700">
+
+- Completed Overview of Part3:  
+<img src="part3-workflow-diagrams/part3-workflow-diagram6.png" width="700">
+
+---
+
 ## Technologies Used
 
 - **Amazon EC2** – command workstation  
